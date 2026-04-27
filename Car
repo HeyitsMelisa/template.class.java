@@ -1,0 +1,6 @@
+public class Car{
+  public Car(carModel){
+    public int Ps(carModel model);
+    public String colour;
+  }
+ }
