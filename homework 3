@@ -1,0 +1,5 @@
+public interface A<C extends Container>{
+   default boolean<T extends Container>fct(HashMap<String,? super Container> map,T val, String key){
+     if(!(map.containsKey(key)){
+       map.put(key,val);
+     }
