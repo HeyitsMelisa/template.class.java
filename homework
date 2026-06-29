@@ -1,0 +1,8 @@
+public interface A<C extends Container>{
+  default boolean<T extends Number> fct(Hashset<? super Number> ason, T t){
+   if(!(ason.contains(t)){
+     ason.add(t);
+   }else{
+    ason.remove(t);
+   }
+  Integer apply(DoubleFunction<Integer> f,Double d);
