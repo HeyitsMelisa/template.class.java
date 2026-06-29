@@ -1,0 +1,4 @@
+public abstract class B<C extends Container> implements A<C>,ContainerListner{
+  public Integer apply( DoubleFunction<Integer> f, Double d){
+   return f.apply(d);
+}
