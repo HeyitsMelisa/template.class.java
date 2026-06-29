@@ -1,0 +1,5 @@
+public class D<C extend Container> extends B<C>{
+  private int id;
+  public void componentAdded(Containereven event){
+    id=event.getId();
+  }
